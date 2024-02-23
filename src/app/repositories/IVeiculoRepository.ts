@@ -8,5 +8,8 @@ export interface IVeiculo {
 }
 
 export interface IVeiculoRepository {
-    listar()
+    listar();
+    listarVeiculosAtivos();
+    listarVeiculosBaixados();
+    baixar(id: number);
 }

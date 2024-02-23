@@ -15,4 +15,5 @@ export interface ILocacao {
 export interface ILocacaoRepository {
     listar();
     buscar(id: number);
+    historico(id: number);
 }

@@ -8,4 +8,7 @@ export interface ICliente {
 
 export interface IClienteRepository {
     listar();
+    buscar(id: number);
+    listarClientesAtivos();
+    listarClientesInativos();
 }
